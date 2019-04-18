@@ -21,7 +21,8 @@ public static void random(int low, int high) {
 	//create an instance of Random 
 	int number = fere.nextInt((high-low)+1)+low;  
 	//use nextInt to get a random number between a and b 
-	System.out.println(number);
+	JOptionPane.showMessageDialog(null,number);
 	//print your random number! 
+	JOptionPane.showMessageDialog(null,'');
 }
 }
