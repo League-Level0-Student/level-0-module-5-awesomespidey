@@ -23,6 +23,6 @@ public static void random(int low, int high) {
 	//use nextInt to get a random number between a and b 
 	JOptionPane.showMessageDialog(null,number);
 	//print your random number! 
-	JOptionPane.showMessageDialog(null,'');
+	JOptionPane.showMessageDialog(null,"here is your random number");
 }
 }
